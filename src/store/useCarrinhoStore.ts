@@ -1,6 +1,6 @@
 import { create } from "zustand";
-import type { Jogo } from "../Utils/gameData";
 import { persist } from "zustand/middleware";
+import type { Jogo } from "../types/Jogo";
 
 interface CarrinhoState {
   numJogos: number;

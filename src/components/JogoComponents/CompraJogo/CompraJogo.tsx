@@ -2,7 +2,8 @@ import style from "./style.module.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useCarrinhoStore } from "../../../store/useCarrinhoStore";
-import { games, type Jogo } from "../../../Utils/gameData";
+import { games} from "../../../Utils/gameData";
+import type { Jogo } from "../../../types/Jogo";
 
 interface Props {
   id: string;

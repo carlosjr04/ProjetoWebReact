@@ -1,9 +1,9 @@
 import style from "./style.module.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-import type { Idioma } from "../../../Utils/gameData";
 import IdiomaUnd from "./IdiomaUnd";
 import { useState } from "react";
+import type { Idioma } from "../../../types/Idioma";
 
 interface Props {
   idiomas: Idioma[];

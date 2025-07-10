@@ -1,39 +1,10 @@
-import type { ReactNode } from "react";
 import Hollow from "../components/DescricaoJogo/Hollow";
 import Marvel from "../components/DescricaoJogo/Marvel";
 import Skyrim from "../components/DescricaoJogo/Skyrim";
 import Terraria from "../components/DescricaoJogo/Terraria";
+import type { Jogo } from "../types/Jogo";
 
-export interface Idioma {
-  lingua:string
-  interface: boolean;
-  dublagem: boolean;
-  legenda:boolean
-}
-export interface Conquista {
-  imagem:string
-  descricao: string
-  escondido:boolean
-}
 
-export interface Jogo {
-  id: string;
-  title: string;
-  price: number;
-  cover: string;
-  desconto:number
-  DataLancamento: Date;
-  compatibilidade: string[];
-  idiomas: Idioma[];
-  scenes: string[];
-  about: string;
-  desenvolvedora: string;
-  classificacao:string[];
-  categorias: string[];
-  descricao: ReactNode;
-  exemplo: string[];
-  conquista:Conquista[];
-}
 
 export const games: Jogo[] = [
   {

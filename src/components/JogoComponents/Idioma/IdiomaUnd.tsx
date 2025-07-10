@@ -1,4 +1,4 @@
-import type { Idioma } from "../../../Utils/gameData";
+import type { Idioma } from "../../../types/Idioma";
 import style from "./style.module.css";
 
 

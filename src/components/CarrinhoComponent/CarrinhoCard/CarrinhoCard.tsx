@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import style from "./style.module.css";
 import { useEffect, useState } from "react";
 import { useCarrinhoStore } from "../../../store/useCarrinhoStore";
-import { games, type Jogo } from "../../../Utils/gameData";
+import { games } from "../../../Utils/gameData";
+import type { Jogo } from "../../../types/Jogo";
 
 interface CarrinhoProps {
   id: string;

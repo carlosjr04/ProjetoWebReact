@@ -1,4 +1,3 @@
-import React from "react";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from "./style.module.css";

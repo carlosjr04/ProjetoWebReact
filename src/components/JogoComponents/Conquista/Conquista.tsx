@@ -1,7 +1,7 @@
 import style from "./style.module.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-import type { Conquista } from "../../../Utils/gameData";
+import type { Conquista } from "../../../types/Conquiesta";
 
 interface Props {
   conquistas: Conquista[];

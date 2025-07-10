@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { games, type Jogo } from "../../Utils/gameData";
+import { games } from "../../Utils/gameData";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import style from "./style.module.css";
@@ -13,6 +13,7 @@ import Compatibilidade from "../../components/JogoComponents/Compatibilidade/Com
 import Idioma from "../../components/JogoComponents/Idioma/Idioma";
 import Classificacao from "../../components/JogoComponents/Classificacao/Classificacao";
 import Conquistas from "../../components/JogoComponents/Conquista/Conquista";
+import type { Jogo } from "../../types/Jogo";
 
 export default function Jogo() {
   const { jogoID } = useParams();
